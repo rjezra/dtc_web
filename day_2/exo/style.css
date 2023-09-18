@@ -1,0 +1,55 @@
+body {
+    background-color: #93B7D5;
+}
+.corps{
+    margin-left: 50px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image:hover{
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.information {
+    margin-left: 40px;
+}
+h1 {
+    font-size: 20px;
+}
+p.information{
+    color:#FFFFFF;
+    line-height: 10px;
+}
+.experience {
+    margin-left: 40px;
+}
+p.experience{
+    color:#FFFFFF;
+    line-height: 10px;
+}
+h3.formation{
+    color: #553636;
+    text-decoration: underline;
+    text-align: center;
+}
+.etude{
+    margin-left: 50px;
+}
+.formation{
+    display: inline-block;
+    width: 300px;
+    background-color: #8d82a7;   
+}
+p.formation{
+    color:#FFFFFF;
+    line-height: 10px;
+}
