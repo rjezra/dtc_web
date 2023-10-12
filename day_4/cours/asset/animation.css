@@ -1,0 +1,42 @@
+.a{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    animation-name: exeple;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes exeple {
+   0%{
+        background-color: brown; 
+        left: 0px; 
+        top: 0px;
+    }
+   25%{
+        background-color: blue; 
+        left: 500px; 
+        top: 0px;
+    }
+   50%{
+        background-color: black; 
+        left: 500px; 
+        top: 300px;
+    }
+   75%{
+        background-color: chartreuse;
+        left: 0px; 
+        top: 300px;
+    }
+   100%{
+        ackground-color: rgb(102, 29, 97); 
+        left: 0px; 
+        top: 0px;
+    }
+    
+}

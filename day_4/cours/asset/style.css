@@ -1,0 +1,23 @@
+.a{
+    width: 90px;
+    height: 90px;
+    background-color: violet;
+    transform: rotate(30deg);
+}
+.b{
+    width: 90px;
+    height: 90px;
+    background-color: violet;
+    transform:skewX(30deg);
+}
+.c img{
+    margin-left: 50%;
+    width: 90px;
+    height: 90px;
+    transition: 
+    transform 2s ;
+}
+.c img:hover {
+    transform: rotate(180deg)  scale(2, 2);
+    
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+.nom{
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+}
+.buton{
+    width: 500px;
+    height: 30px;
+}
