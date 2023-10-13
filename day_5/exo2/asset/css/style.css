@@ -1,0 +1,17 @@
+.corp{
+    text-align: center;
+    
+}
+.corp h1{
+    color: rgb(212, 212, 227) ;
+}
+.col{
+    background-color: rgb(212, 212, 227);
+    margin: 20px;
+    height: 500px;
+    border-radius:20px;
+}
+.col img{
+    width: 150px;
+    height: 150px;
+}
