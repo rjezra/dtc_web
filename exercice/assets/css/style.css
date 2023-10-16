@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'Inter-VariableFont_slnt';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter-VariableFont_slnt';
+    font-weight: 400, 700, 800;
+}
+body{
+    margin: 120px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+    color: hsl(236, 13%, 42%);
+}
+.menu li a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.corp{
+    display: flex;
+}
+.img img{
+    width: 900px;
+}
+.corp-flex-1{
+    display: flex;
+    position: relative;
+    min-width: 50%;
+    max-width: 100%;
+}
+.corp-flex2 h2{
+    color:hsl(35, 77%, 62%) ;
+    width: 30%;
+}
+.corp-flex2 h3{
+    color:hsl(36, 100%, 99%);
+}
+.corp-flex2 p{
+    color:hsl(233, 8%, 79%);
+}
+.p{
+    width:100%;
+}
+.flex{
+    margin: 20px;
+}
+.corp-flex2{
+    line-height: 3em;
+    background-color:hsl(240, 100%, 5%) ;
+}
+.btn{
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color:hsl(5, 85%, 63%);
+}
