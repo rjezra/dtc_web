@@ -24,6 +24,10 @@ body {
     color: hsl(236, 13%, 42%);
 }
 
+.menu li :hover {
+    color: hsl(5, 85%, 63%);
+}
+
 p {
     font-size: 15px;
 }
@@ -49,14 +53,16 @@ header {
     width: 800px;
 }
 
-.corp-flex-1{
+.corp-flex-1 {
     display: flex;
     justify-content: space-between;
     width: 800px;
 }
-.corp-flex-1 h1{
+
+.corp-flex-1 h1 {
     color: hsl(240, 100%, 5%);
 }
+
 .corp-flex2 {
     width: 400px;
 }
@@ -66,20 +72,29 @@ header {
     width: 30%;
 }
 
-.corp-flex2 h3 {
+.flex h3 {
     color: hsl(36, 100%, 99%);
 }
 
-.corp-flex2 p {
+.flex h3:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+
+}
+
+.flex p {
     color: hsl(233, 8%, 79%);
 }
-.corp-flex-1 h1{
-   font-size: 30px;
+
+.corp-flex-1 h1 {
+    font-size: 30px;
 }
+
 .paragraphe {
     width: 400px;
 }
-.paragraphe{
+
+.paragraphe {
     color: hsl(233, 8%, 79%);
 
 }
@@ -98,7 +113,14 @@ header {
     width: 70%;
     height: 30px;
     border: none;
+    color: hsl(36, 100%, 99%);
     background-color: hsl(5, 85%, 63%);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+
 }
 
 .footer {
@@ -127,8 +149,15 @@ header {
     font-size: 30px;
     width: 30%
 }
-.text h3{
+
+.text h3 {
     color: hsl(240, 100%, 5%);
+}
+
+.text h3:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+
 }
 
 .text p {
