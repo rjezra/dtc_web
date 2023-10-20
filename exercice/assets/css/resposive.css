@@ -45,6 +45,57 @@ header{
     height: auto;
 
 }
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -950px;
+    background-color:hsl(36, 100%, 99%);
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    margin-left: 56%;
+    line-height: 3em;
+    font-family: 'Inter-VariableFont_slnt';
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(236, 13%, 42%);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: hsl(5, 85%, 63%);
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  
     
 }
 @media only screen and (min-width: 600px){
